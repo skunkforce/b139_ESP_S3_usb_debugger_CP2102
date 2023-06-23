@@ -56,7 +56,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "footprint_type_mismatch|141285000|96387500|51668885-0546-4a66-8fdf-6d39ac7639f4|00000000-0000-0000-0000-000000000000",
+        "hole_clearance|145465000|93487500|a4447952-7bf6-4ae9-82e7-e17ed1e65b0d|1eac353e-82d5-48d9-b072-7142480abc0e",
+        "hole_clearance|145465000|93687500|a4447952-7bf6-4ae9-82e7-e17ed1e65b0d|3e3f0b44-fba7-460c-9378-1871cfbb8796",
+        "hole_clearance|145465000|99087500|49dbef0d-c0d6-4c9b-beaa-8473952f29dd|ca77c1c1-bd9f-45b6-85c0-affc3f0b68f7",
+        "hole_clearance|145465000|99287500|49dbef0d-c0d6-4c9b-beaa-8473952f29dd|981d8408-2aa6-4184-ab53-33677f71bb87",
+        "silk_edge_clearance|140007565|101173787|b192bd3a-d48b-498a-bad3-8416a3dae09d|77fc350a-4118-459f-b115-0f6615932a1f",
+        "silk_edge_clearance|140038009|91611940|c7b5edd8-a0af-4f1b-8316-344c733181d6|bc58aabe-81a7-49cc-be3b-5bf5e87d4163",
+        "silk_overlap|154440000|101343588|9b0d9ee7-f5d0-4941-bf81-57215cadbe86|2cb365a0-9b42-490a-a41b-dc7fbba2b6b6"
+      ],
       "meta": {
         "version": 2
       },
@@ -123,7 +132,7 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.127,

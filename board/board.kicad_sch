@@ -1340,7 +1340,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 094b9291-52d5-4b73-a539-c6bb861d46ab)
     )
-    (pin "DRT" input (at 195.58 126.365 0)
+    (pin "DTR" input (at 195.58 126.365 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 323c792d-8934-4287-8a61-1e73a396c062)
     )
